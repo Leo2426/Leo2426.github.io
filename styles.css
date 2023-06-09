@@ -1,0 +1,71 @@
+/* Navbar */
+.navbar{
+    padding: 1rem;
+    background-color: #f5f5f5;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: center;
+}
+
+/* Head page */
+.head-page{
+    background-color: rgb(12, 100, 0);
+    color: #ffffff;
+    min-height: 200px;
+}
+
+/* btn */
+.btn{
+    padding: 0.5rem 1.5rem;
+}
+
+/* Card */
+.imagen-card{
+    width: 10%;
+}
+
+.costo-card{
+    padding-left: 0.5rem;
+}
+
+.col{
+    padding: 2rem 0rem;
+}
+
+.c-10{
+    background-color: #322222;
+}
+.c-20{
+    background-color: #045648;
+}
+.c-30{
+    background-color: #4b0456;
+}
+.c-40{
+    background-color: #14164b;
+}
+.c-50{
+    background-color: #5e2710;
+}
+.c-60{
+    background-color: #564804;
+}
+
+
+
+
+
+
+/* Footer */
+.icon-footer{
+    opacity: 70%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+/* Cards */
+.card-body{
+    background-color: #f7f7f7;
+}

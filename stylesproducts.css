@@ -1,0 +1,42 @@
+/* Navbar */
+.navbar{
+    padding: 1rem;
+    background-color: #f5f5f5;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: center;
+}
+
+.col-descripcion{
+    padding: 2rem;
+}
+
+.d-block{
+    max-height: 300px;
+}
+/* Footer */
+.icon-footer{
+    opacity: 70%;
+    color: black;
+    font-size: 1.5rem;
+}
+.col-carrusel{
+    padding: 3rem;
+}
+
+.col-descripcion h4{
+    margin-bottom: 1rem;
+}
+
+/* Adaptable(responive) */
+@media (max-width: 768px){
+    .row{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .col-carrusel{
+        padding: 0rem 2rem;
+    }
+}
