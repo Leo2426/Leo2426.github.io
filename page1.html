@@ -29,7 +29,7 @@
       </button> -->
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <a class="navbar-brand" href="#">
-          <i class="bi bi-microsoft "></i>
+          <i class="bi bi-microsoft"></i>
         </a>
         <ul class="navbar-nav  d-flex justify-content-center align-items-center">
           <li class="nav-item">
@@ -54,9 +54,12 @@
         <!-- Carrousel -->
         <div id="carouselExampleIndicators" class="carousel slide">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -69,16 +72,18 @@
               <img src="images/Sistemas-informacion-802x560.jpg" class="img-fluid" alt="...">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        
+
       </div>
 
       <!-- Columna descripcion -->
@@ -86,17 +91,51 @@
         <h4>Sistema de Ventas Completo</h4>
         <p class="justify">Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Blanditiis minima, aliquam
-          placeat necessitatibus vitae minus nobis natus 
-          beatae sequi fugit ut officiis inventore dolores quisquam 
+          placeat necessitatibus vitae minus nobis natus
+          beatae sequi fugit ut officiis inventore dolores quisquam
           temporibus optio ab numquam reiciendis.
           Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Blanditiis minima, aliquam
-          placeat necessitatibus vitae minus nobis natus 
-          beatae sequi fugit ut officiis inventore dolores quisquam 
-          temporibus optio ab numquam reiciendis.
+          placeat necessitatibus vitae minus nobis natus
+          beatae sequi fugit ut officiis inventore dolores quisquam
+          temporibus optio ab numquam reiciendis hola.
         </p>
         <br>
-        <button type="button" class="btn btn-success">Comprar</button>
+
+      <!-- Botones -->
+      <div id="Botones" class="container d-flex justify-content-center align-items-center">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn d-flex align-items-center btn-yape" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <img src="images/yape-logo.png" class="img-fluid yape-logo" alt="">
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Paga con yape</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img class="img-fluid" src="images/yape_qr.jpg" alt="qr">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success"><i class="bi-whatsapp"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <a target="_blank"
+            href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=taypeleonardo957%40gmail%2ecom&lc=AL&item_name=Sistema%20Excel&amount=20%2e00&currency_code=USD&button_subtype=services&no_note=0&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest"
+            class="btn btn-warning" role="button"><i class="bi bi-paypal"></i> Comprar</a>
+
+          </div>
+
+
+
       </div>
 
     </div>

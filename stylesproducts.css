@@ -13,9 +13,6 @@
     padding: 2rem;
 }
 
-.d-block{
-    max-height: 300px;
-}
 /* Footer */
 .icon-footer{
     opacity: 70%;
@@ -30,6 +27,38 @@
     margin-bottom: 1rem;
 }
 
+
+/* .ha{
+    background-color: rgb(116, 35, 35);
+} */
+
+.yape-logo{
+    max-width: 40px;
+}
+
+.btn-yape{
+    background-color:  rgb(95, 3, 116);
+    border-color:  rgb(95, 3, 116);
+    margin-right: 1.5rem;
+    max-height:40px;
+    border-radius: 15px;
+    padding:1rem 2.5rem;
+}
+
+.btn-yape:hover{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(85, 29, 137);
+    border-color: rgb(85, 29, 137);
+}
+
+.btn-warning{
+    border-radius: 20px 20px 20px 20px;
+    padding: 0.5rem 1.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
 /* Adaptable(responive) */
 @media (max-width: 768px){
     .row{
@@ -39,4 +68,5 @@
     .col-carrusel{
         padding: 0rem 2rem;
     }
+
 }
